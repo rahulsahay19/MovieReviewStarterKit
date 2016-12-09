@@ -1,0 +1,15 @@
+<h1>Movies List</h1>
+<p>This component demonstrates fetching data from the server.</p>
+<p *ngIf="!movies"><em>Loading...</em></p>
+<table class='table' *ngIf="movies">
+    <thead>
+        <tr>
+            <th>Movie Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let movie of movies">
+            <td>{{ movie.movieName }}</td>
+        </tr>
+    </tbody>
+</table>
