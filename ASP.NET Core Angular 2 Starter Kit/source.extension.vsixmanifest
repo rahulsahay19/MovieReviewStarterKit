@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="ASP.NET_Core_Angular_2_Starter_Kit.Rahul Sahay.18e622f6-3c79-4eb9-86ce-f0a748d0f1fa" Version="1.0" Language="en-US" Publisher="Rahul Sahay" />
+    <DisplayName>ASP.NET_Core_Angular_2_Template</DisplayName>
+    <Description xml:space="preserve">This will enable developers to get started with SPA using ASP.NET Core, Angula 2 and bunch of other stuffs!</Description>
+    <Icon>Me.ico</Icon>
+    <PreviewImage>Preview_Image.png</PreviewImage>
+    <Tags>ASP.NET Core, Angular 2, ASP.NET</Tags>
+  </Metadata>
+  <Installation AllUsers="true">
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="MovieReviewStarterKit" d:TargetPath="|MovieReviewStarterKit;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+  </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
+</PackageManifest>

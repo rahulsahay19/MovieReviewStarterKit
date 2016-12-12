@@ -111,7 +111,6 @@
   <ItemGroup>
     <None Include="ClientApp\app\app.module.ts" />
     <None Include="ClientApp\app\components\app\app.component.ts" />
-    <None Include="ClientApp\app\components\counter\counter.component.ts" />
     <None Include="ClientApp\app\components\fetchdata\fetchdata.component.ts" />
     <None Include="ClientApp\app\components\home\home.component.ts" />
     <None Include="ClientApp\app\components\navmenu\navmenu.component.ts" />
